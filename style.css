@@ -7,8 +7,8 @@
 .nav {
   display: flex;
   align-items: center;
-
-  width: 100%;
+  height:150px;
+  width: 80%;
   justify-content: space-around;
   /* gap: 50px; */
   /* padding-right: 20px; */
@@ -18,6 +18,7 @@
 .nav ul {
   display: flex;
   list-style: none;
+  
 }
 
 .nav ul li {
@@ -45,6 +46,7 @@
     position: absolute;
     margin-left:40%;
     gap:20px;
+    font-size: 20px;
 }
 
 #nav-button {
@@ -67,4 +69,93 @@
 
 #green{
     color:#5dae87;
+}
+
+/* Basic styles for the box */
+
+.box {
+  margin-top:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+}
+
+.box1 {
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+                                                                                                                                                                       
+.imgbox img {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.heading h1 {
+  font-size: 24px;
+  color: #333;
+}
+.head {
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+.head b {
+  font-size: 25px;
+  color: #5dae87;
+  
+}
+
+.box1:hover {
+  
+  transform: scale(1.1);
+}
+.mid2{
+  display: flex;               
+  align-items: center;
+  justify-content: space-between;
+  padding:50px;
+  
+}
+
+.bulb{
+  
+  padding:50px;
+}
+
+.heading2 {
+  font-size: 30px;
+  display:flex;
+  
+  
+}
+.head1{
+  font-size: 25px;
+  color: #5dae87;
+  display:flex;
+  margin-top:10px;
+}
+
+.head2{
+  font-size: 18px;
+  color: #333;
+  display:flex;
+  margin-top:10px;
+}
+.parent{
+  
+  height:50%;
+  weight:80%;
+}
+
+.nav2{
+  background-color:#5dae87;
+  height:50%;
+  weight:80%;
 }
